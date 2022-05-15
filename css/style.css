@@ -88,7 +88,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 /* 共通
 ------------------------------------------------------------*/
-h1, h2{
+h1, h2, h3{
 	font-family: 'Josefin Sans', 'Noto Sans JP',serif;
 }
 
@@ -105,6 +105,12 @@ section h2{
 	text-align: center;
 }
 
+section h3{
+	font-size: 18px;
+	font-weight:normal;
+	text-align: center;
+}
+
 .inner{
 	width: 94%;
 	margin: 0 auto;
@@ -116,6 +122,8 @@ section h2{
 	width: 100%;
   	margin: 20px 0 20px 0;
 }
+
+
 
 
 /* SEC01 VISION
@@ -157,7 +165,27 @@ section h2{
 	margin: -5px auto 20px;
 }
 
+#exp{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
+.exp-li{
+	display: inline-block;
+    width: 100%;
+    padding: 0 1.5%;
+    margin-bottom: 0;
+    vertical-align: top;
+    text-align: left;
+}
+
+.mark-img{
+	width:30%;
+	margin:auto;
+}
 /* SEC04 STORY & SUCCESS
 ------------------------------------------------------------*/
 #sec04{

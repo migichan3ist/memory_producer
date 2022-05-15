@@ -125,7 +125,6 @@ section h3{
 
 
 
-
 /* SEC01 VISION
 ------------------------------------------------------------*/
 
@@ -171,6 +170,7 @@ section h3{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+	min-height: 80px;
 }
 
 .exp-li{
